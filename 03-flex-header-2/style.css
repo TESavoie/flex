@@ -49,12 +49,13 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
-  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+  gap: 16px;
 }
 
-.container {
-  margin-left: auto;
+.container, .one {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 16px;
 }
