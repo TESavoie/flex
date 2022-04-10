@@ -20,7 +20,22 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  gap: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+
+.container {
+  display: flex;
+  justify content: flex-end;
+  flex-wrap: wrap;
+}
+
+.buttoh-holder {
+  display: flex;
+  justify-content: stretch-end;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 1 auto;
 }
 
 .close-button {
