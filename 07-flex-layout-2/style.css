@@ -5,14 +5,23 @@ body {
   display: flex;
   flex-direction: column;
 }
+ 
 
 ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
+
 
 li {
   margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .header {
@@ -21,6 +30,9 @@ li {
   color: white;
   display: flex;
   align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
@@ -29,15 +41,14 @@ li {
   color: darkmagenta;
   display: flex;
   align-items: center;
-
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
-  flex-grow: 1;
+  flex-shrink: 0;
   padding: 16px;
-  height: 100%;
 }
 
 .card {
@@ -49,16 +60,13 @@ li {
   width: 300px;
 }
 
-.content {
-  display: flex;
+.body {
   flex: 1;
-  flex-wrap: wrap;
+  display: flex;
 }
 
-.all-cards {
+.container {
+  padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  padding: 32px;
-  margin-left: 10px;
-  flex-grow 999;
 }
